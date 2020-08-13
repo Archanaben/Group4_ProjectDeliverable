@@ -11,9 +11,35 @@ package ca.sheridancollege.project;
  * should remember to add themselves as a modifier.
  * @author dancye, 2018
  */
-public abstract class Card 
+public class Card 
 {
     //default modifier for child classes
+    private int rank;
+    private int suit; 
+    
+    Card(int suit, int rank)
+    {
+       this.rank = rank;
+       this.suit = suit;
+    }
+
+    public int getRank() {
+        return rank;
+    }
+
+    public void setRank(int rank) {
+        this.rank = rank;
+    }
+
+    public int getSuit() {
+        return suit;
+    }
+
+    public void setSuit(int suit) {
+        this.suit = suit;
+    }
+    
+    
     
     /**
      * Students should implement this method for their specific children classes 
@@ -21,6 +47,9 @@ public abstract class Card
      */
     
     @Override
-    public abstract String toString();
-    
+    public String toString()
+    {
+        return toString();
+    }
+      
 }
