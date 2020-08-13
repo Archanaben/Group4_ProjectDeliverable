@@ -11,7 +11,7 @@ import java.util.LinkedList;
 /**
  * The class that models your game. You should create a more specific
  * child of this class and instantiate the methods given.
- * @author dancye, 2018
+ * Group 4 - Aug 12, 2020
  */
 public class Game extends GroupOfCards
 {

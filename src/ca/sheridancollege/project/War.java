@@ -7,7 +7,7 @@ package ca.sheridancollege.project;
 
 /**
  *
- * @author harsh
+ * Group 4 - Aug 12, 2020
  */
 public class War
 {

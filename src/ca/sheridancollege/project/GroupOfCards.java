@@ -13,7 +13,7 @@ import java.util.Random;
  * A concrete class that represents any grouping of cards for a Game.
  * HINT, you might want to subclass this more than once.
  * The group of cards has a maximum size attribute which is flexible for reuse.
- * @author dancye
+ * Group 4 - Aug 12, 2020
  */
 public class GroupOfCards 
 {
